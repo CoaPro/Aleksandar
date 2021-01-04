@@ -122,6 +122,7 @@ header
     transition-property: transform; 
     transition-timing-function: ease-in; 
     transition-delay: 0.2s;  
+    
 } 
 
 #nazad:hover 
@@ -138,6 +139,7 @@ header
     {
         display: block; 
         padding-bottom: 0.5em; 
+        margin-left: 1.9em; 
     } 
 
     .jezik
@@ -149,6 +151,7 @@ header
         padding-top: 1em; 
         border-bottom: 2px solid white;  
         padding-bottom: 0.75em; 
+        text-align: center;
     }
     
 }
