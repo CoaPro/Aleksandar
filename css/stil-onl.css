@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&display=swap'); 
 
+
+
 .grid-container
 {
+    border: 1px solid black; 
     display: grid; 
     margin: 0 auto; 
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); 
-    justify-items: center; 
+    
 }
 
 #kursevi
 {
     width: 300px; 
-    padding: 10em; 
+    margin-left: 3em;
+    padding-top: 5em; 
     opacity: 0.6; 
-
+    margin: 0 auto; 
+    justify-content: center;
 }
 
 .lista_a 
@@ -22,7 +27,8 @@
     font-weight: bold; 
     list-style: none; 
     padding: 1.4em; 
-
+    justify-content: center; 
+    margin: 0 auto; 
 }
 
 .lista_a a
