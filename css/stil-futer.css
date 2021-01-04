@@ -9,10 +9,23 @@
     
 }
 
-.futer_t_ikonice, .futer_t_ikonice_pocetna
+.futer_t_ikonice
 {
     display: grid; 
     grid-template-columns: repeat(5, 5em); 
+    grid-gap: 0.5em; 
+    justify-content: center; 
+    justify-items: center; 
+    padding-top: 4em;  
+    padding-bottom: 1em; 
+    transition-duration: 1s; 
+    margin-left: 5em; 
+}
+
+.futer_t_ikonice_pocetna
+{
+    display: grid; 
+    grid-template-columns: repeat(5, 3em); 
     grid-gap: 0.5em; 
     justify-content: center; 
     justify-items: center; 
