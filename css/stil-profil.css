@@ -89,6 +89,46 @@ main {
     animation-iteration-count: infinite; 
 }
 
+#git_a 
+{
+    color: white; 
+    background-color: #333333; 
+    display: inline; 
+    padding: 0.3em; 
+    border-style: none; 
+    border-radius: 0.4em; 
+    transition-duration: 1s; 
+    transition-timing-function: ease;
+} 
+
+#git_a:hover
+{
+    color: #333333; 
+    background-color: whitesmoke; 
+    border: 2px solid #333333; 
+}
+
+
+#yt_a 
+{
+    color: white; 
+    background-color: tomato; 
+    display: inline; 
+    padding: 0.3em; 
+    border-style: none; 
+    border-radius: 0.4em; 
+    transition-duration: 1s; 
+    transition-timing-function: ease;
+} 
+
+#yt_a:hover
+{
+    color: tomato; 
+    background-color: whitesmoke; 
+    border: 2px solid tomato; 
+}
+
+
 @keyframes link_gal
 {
     0%
