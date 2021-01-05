@@ -35,12 +35,26 @@
     margin-left: 5em; 
 }
 
+.autorska_prava
+{
+    display: flex; 
+    justify-content: center;
+    margin: 0 auto 0 auto; 
+    color: white; 
+    padding-top: 0.5em; 
+    font-family:'Monserat-Medium', sans-serif; 
+}
+
+.autorska_prava:hover 
+{
+    opacity: 0.7; 
+} 
 
 @media screen and (max-width: 700px) 
 {
     .futer_t_ikonice_pocetna 
     {
-        margin-left: 1em; 
+        /* margin-left: 1em; */
         grid-template-columns: repeat(5, 3em); 
     }
 }
