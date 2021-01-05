@@ -29,14 +29,15 @@
     margin: 0 auto; 
 }
 
-.lista_a a
+.lista_a a 
 {
     color: #ec1212; 
 }
 
 .lista_a li 
 {
-    font-size: 120%;
+    font-size: 120%; 
+    text-align: left; 
 }
 
 .lista_b li 
@@ -45,6 +46,9 @@
     list-style: none; 
     padding: 1.4em; 
     font-size: 100%; 
-    
 } 
 
+.lista_b_b1 li 
+{
+    text-align: right; 
+}
